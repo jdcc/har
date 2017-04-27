@@ -10,7 +10,7 @@ module HAR
 
     alias_method :eql?, :==
 
-    def as_json(options)
+    def as_json(options=nil)
       @data
     end
 
